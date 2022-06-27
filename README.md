@@ -7,19 +7,19 @@ M2GEREI
 
  |-- dataset
  
- |    |-- docred
+   -- docred
  
- |    |    |-- train_annotated.json   
+     -- train_annotated.json   
  
- |    |    |-- train_distant.json
+     -- train_distant.json
  
- |    |    |-- dev.json
- 
- |    |    |-- test.json
+     -- dev.json
+     
+     -- test.json
  
  |-- meta
  
- |    |-- rel2id.json
+    -- rel2id.json
  
  ## Training and Inference
  
