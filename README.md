@@ -5,7 +5,7 @@ The expected structure of files is:
 
 M2GEREI
 
-  -- dataset
+   -- dataset
  
     -- docred
  
@@ -17,7 +17,7 @@ M2GEREI
      
      -- test.json
  
-   -- meta
+    -- meta
  
     -- rel2id.json
  
