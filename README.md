@@ -53,4 +53,4 @@ bash scripts/train_roberta.sh M2GEREI test
 bash scripts/test_roberta.sh M2GEREI test 
 ``` 
 ## Results
-Please refer to resules_image for specific results
+![dev results](https://github.com/jiahe7ay/M2GEREI/blob/main/results_image/M2base_dev.png)
