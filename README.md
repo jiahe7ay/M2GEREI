@@ -53,4 +53,4 @@ bash scripts/train_roberta.sh M2GEREI test
 bash scripts/test_roberta.sh M2GEREI test 
 ``` 
 ## Results
-![dev results](https://github.com/jiahe7ay/M2GEREI/blob/main/results_image/M2base_dev.png)
+dev results ![](https://github.com/jiahe7ay/M2GEREI/blob/main/results_image/M2base_dev.png)
