@@ -5,22 +5,19 @@ The expected structure of files is:
 
 M2GEREI
 
--- dataset
- 
-  -- docred
- 
-     -- train_annotated.json   
- 
-     -- train_distant.json
- 
-     -- dev.json
-     
-     -- test.json
-     
-   -- meta
- 
-    -- rel2id.json
- 
+```
+
+Eider
+ |-- dataset
+ |    |-- docred
+ |    |    |-- train_annotated.json        
+ |    |    |-- train_distant.json
+ |    |    |-- dev.json
+ |    |    |-- test.json
+ |-- meta
+ |    |-- rel2id.json
+
+```
  ## Training and Inference
  
  Train M2GEREI-BERT on DocRED with the following commands:
