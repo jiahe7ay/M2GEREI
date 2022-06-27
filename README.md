@@ -56,3 +56,6 @@ bash scripts/test_roberta.sh M2GEREI test
 dev results: ![](https://github.com/jiahe7ay/M2GEREI/blob/main/results_image/M2base_dev.png)
 
 test results: ![](https://github.com/jiahe7ay/M2GEREI/blob/main/results_image/M2_TEST.png)
+
+## Tips
+If you want to get the relevant results of the test set, please log in to [codalab](https://codalab.lisn.upsaclay.fr/) to run online and get the results.
