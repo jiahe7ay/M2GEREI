@@ -5,7 +5,7 @@ The expected structure of files is:
 
 M2GEREI
 
-   -- dataset
+-- dataset
  
     -- docred
  
@@ -17,7 +17,7 @@ M2GEREI
      
      -- test.json
  
-    -- meta
+   -- meta
  
     -- rel2id.json
  
@@ -30,5 +30,5 @@ M2GEREI
 
 Alternatively, you can train M2GEREI-RoBERTa using:
 
->> bash scripts/train_roberta.sh M2GEREI test 
->> bash scripts/test_roberta.sh M2GEREI test 
+bash scripts/train_roberta.sh M2GEREI test 
+bash scripts/test_roberta.sh M2GEREI test 
