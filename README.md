@@ -2,7 +2,7 @@
 
 ## Dataset
 The expected structure of files is:
-The DocRED dataset can be downloaded following the instructions at  [link]([https://www.runoob.com](https://drive.google.com/drive/folders/1owp7ZRbrMl_s1ljIh6AvnmniLJSliV6h).
+The DocRED dataset can be downloaded following the instructions at  [link](https://drive.google.com/drive/folders/1owp7ZRbrMl_s1ljIh6AvnmniLJSliV6h).
 ```
 M2GEREI
  |-- dataset
