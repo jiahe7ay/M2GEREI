@@ -133,9 +133,7 @@ class DocREModel(nn.Module):
             if sen_poss is not None:
                 # logsumexp:
 
-                ss = [
-                    torch.logsumexp(sequence_output[i, sen_pos[0] + offset:sen_pos[1] + offset, :], dim=0).unsqueeze(0)
-                    for sen_pos in sen_poss[i] if sen_pos[0] + offset < c]
+                ss = [torch.logsumexp(sequence_output[i, sen_pos[0]+offset:sen_pos[1]+offset, :]+self.postion_embeding(Variable(torch.LongTensor([10])).to(sequence_output.device)), dim=0).unsqueeze(0) for sen_id,sen_pos in enumerate ( sen_poss[i] )if sen_pos[0]+offset < c]
                 ss = torch.cat(ss, dim=0).to(sequence_output.device) # [sen_num, emb_size]
                 # padding ss to [max_sen_num, emb_size]
                 pad = nn.ZeroPad2d((0, 0, 0, self.max_sen_num - ss.shape[0]))
