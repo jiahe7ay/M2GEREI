@@ -5,13 +5,21 @@ The expected structure of files is:
 
 M2GEREI
 
- |-- coref_results
+ |-- dataset
  
- |    |-- train_annotated_coref_results.json
+ |    |-- docred
  
- |    |-- dev_coref_results.json
+ |    |    |-- train_annotated.json   
  
- |    |-- test_coref_results.json
+ |    |    |-- train_distant.json
+ 
+ |    |    |-- dev.json
+ 
+ |    |    |-- test.json
+ 
+ |-- meta
+ 
+ |    |-- rel2id.json
  
  ## Training and Inference
  
