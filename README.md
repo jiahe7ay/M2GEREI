@@ -31,3 +31,5 @@ bash scripts/train_roberta.sh M2GEREI test
 
 bash scripts/test_roberta.sh M2GEREI test 
 ``` 
+## Results
+Please refer to resules_image for specific results
